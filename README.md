@@ -3,13 +3,13 @@
 
 ##Authors:
 - Kapustin Volodymyr;
-- Dyachenko Iryna;
+- Bobryk Iryna;
 - Prudskoy Yurii;
 - Mosiichuk Maria;
 
 --------
 
-##General info about application
+##General info about application:
 
 **What will this application give you?:**
 >* This application will help you quickly find the right recipe, pick up the ingredients and tasty to feed your family and friends.
