@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fridgeapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Broadcast receiver -->
+        <receiver android:name="com.example.fridgeapp.AlarmManagerBroadcastReceiver" >
+        </receiver>
+
+        <activity
+            android:name="com.example.fridgeapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.AddItemToShopListActivity"
+            android:label="@string/title_activity_add_item_to_shop_list" >
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.ViewProductPropActivity"
+            android:label="@string/title_activity_view_product_prop" >
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.AddItemToFridgeActivity"
+            android:label="@string/title_activity_add_item_to_fridge" >
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.AlarmActivity"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.fridgeapp.AlarmSetTimeActivity"
+            android:label="@string/title_activity_alarm_set_time" >
+        </activity>
+    </application>
+
+</manifest>

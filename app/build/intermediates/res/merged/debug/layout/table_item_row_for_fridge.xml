@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="3dip" >
+
+    <TextView
+        android:id="@+id/alarmProductNameTextView"
+        android:layout_width="125dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="65dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:text="TextView" />
+
+</TableRow><!-- From: file:/D:/Android/refr/app/src/main/res/layout/table_item_row_for_fridge.xml -->

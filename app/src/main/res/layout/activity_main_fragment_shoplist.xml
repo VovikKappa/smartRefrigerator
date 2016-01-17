@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_fragment_shoplist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$MainActivityShopList" >
+
+    <TableRow
+        android:id="@+id/tableRow_main_shoplist_titles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dip" >
+
+        <TextView
+            android:id="@+id/alarmProductNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="@string/product"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dip"
+            android:text="@string/rating"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.86"
+        android:fadeScrollbars="false"
+        android:background="@color/white" >
+
+        <TableLayout
+            android:id="@+id/activity_main_fragment_shoplist_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activity_main_fragment_shoplist_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/add_item" />
+
+</TableLayout>
